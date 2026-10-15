@@ -116,7 +116,7 @@ def build_player(audio_files, sentences):
     <html>
     <body>
     <button id="playBtn" style="font-size:16px;padding:8px 16px;margin-bottom:10px;">▶ 开始播放</button>
-    <div id="subs" style="font-size:16px;line-height:2;"></div>
+    <div id="subs" style="font-size:16px;line-height:2;max-height:300px;overflow-y:auto;border:1px solid #ddd;padding:10px;"></div>
     <script>
     var audios = AUDIO_JSON;
     var sentences = SENTENCE_JSON;
